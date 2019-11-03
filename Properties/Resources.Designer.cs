@@ -203,9 +203,39 @@ namespace calc.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap div {
+            get {
+                object obj = ResourceManager.GetObject("div", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap igual {
             get {
                 object obj = ResourceManager.GetObject("igual", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mais {
+            get {
+                object obj = ResourceManager.GetObject("mais", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menos {
+            get {
+                object obj = ResourceManager.GetObject("menos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -246,6 +276,16 @@ namespace calc.Properties {
         internal static System.Drawing.Bitmap Screenshot_1 {
             get {
                 object obj = ResourceManager.GetObject("Screenshot_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vez {
+            get {
+                object obj = ResourceManager.GetObject("vez", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

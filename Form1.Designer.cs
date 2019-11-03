@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button11 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
             this.resultado = new System.Windows.Forms.TextBox();
             this.equacao = new System.Windows.Forms.Label();
             this.button18 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
@@ -51,54 +51,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button11
-            // 
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(2, 150);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(45, 45);
-            this.button11.TabIndex = 10;
-            this.button11.Text = "+";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.operador_click);
-            // 
-            // button13
-            // 
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(2, 99);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(45, 45);
-            this.button13.TabIndex = 12;
-            this.button13.Text = "-";
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.operador_click);
-            // 
-            // button14
-            // 
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(2, 48);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(45, 45);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "*";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.operador_click);
-            // 
-            // button15
-            // 
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(2, -3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(45, 45);
-            this.button15.TabIndex = 14;
-            this.button15.Text = "/";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.operador_click);
             // 
             // resultado
             // 
@@ -151,6 +103,7 @@
             // 
             this.button16.FlatAppearance.BorderSize = 0;
             this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Image = global::calc.Properties.Resources.igual;
             this.button16.Location = new System.Drawing.Point(343, 333);
             this.button16.Name = "button16";
@@ -159,6 +112,44 @@
             this.button16.Text = "=";
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button15
+            // 
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Image = global::calc.Properties.Resources.div;
+            this.button15.Location = new System.Drawing.Point(275, 239);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(55, 26);
+            this.button15.TabIndex = 14;
+            this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.operador_click);
+            // 
+            // button14
+            // 
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.Image = global::calc.Properties.Resources.vez;
+            this.button14.Location = new System.Drawing.Point(276, 268);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(51, 25);
+            this.button14.TabIndex = 13;
+            this.button14.Text = "*";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.operador_click);
+            // 
+            // button13
+            // 
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.Image = global::calc.Properties.Resources.menos;
+            this.button13.Location = new System.Drawing.Point(278, 293);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(52, 31);
+            this.button13.TabIndex = 12;
+            this.button13.Text = "-";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.operador_click);
             // 
             // button12
             // 
@@ -172,6 +163,20 @@
             this.button12.Text = ".";
             this.button12.UseVisualStyleBackColor = true;
             this.button12.Click += new System.EventHandler(this.button_Click);
+            // 
+            // button11
+            // 
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.Image = global::calc.Properties.Resources.mais;
+            this.button11.Location = new System.Drawing.Point(278, 328);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(52, 60);
+            this.button11.TabIndex = 10;
+            this.button11.Text = "+";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.operador_click);
             // 
             // button10
             // 
