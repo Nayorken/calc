@@ -44,12 +44,15 @@ namespace calc
             operacao = b.Text;
             valor = Double.Parse(resultado.Text);
             operacao_pressionada = true;
+            equacao.Text = valor + " " + operacao;
         }
 
         private void button16_Click(object sender, EventArgs e)
         {
+            equacao.Text = "";
             switch (operacao)
             {
+                
                 case "+":
                     resultado.Text = (valor + Double.Parse(resultado.Text)).ToString(); break;
                 case "-":
