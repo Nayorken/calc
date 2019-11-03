@@ -30,6 +30,7 @@
         {
             this.resultado = new System.Windows.Forms.TextBox();
             this.equacao = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
@@ -74,6 +75,19 @@
             this.equacao.Name = "equacao";
             this.equacao.Size = new System.Drawing.Size(0, 36);
             this.equacao.TabIndex = 19;
+            // 
+            // button19
+            // 
+            this.button19.FlatAppearance.BorderSize = 0;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button19.Image = global::calc.Properties.Resources._00;
+            this.button19.Location = new System.Drawing.Point(165, 345);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(45, 40);
+            this.button19.TabIndex = 21;
+            this.button19.Text = "00";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button_Click);
             // 
             // button18
             // 
@@ -323,6 +337,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(454, 497);
+            this.Controls.Add(this.button19);
             this.Controls.Add(this.equacao);
             this.Controls.Add(this.resultado);
             this.Controls.Add(this.button18);
@@ -345,6 +360,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -375,6 +391,7 @@
         private System.Windows.Forms.TextBox resultado;
         private System.Windows.Forms.Label equacao;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button19;
     }
 }
 
