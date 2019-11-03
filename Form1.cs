@@ -16,5 +16,10 @@ namespace calc
         {
             InitializeComponent();
         }
+        private void button_Click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            resultado.Text = resultado.Text + b.Text;
+        }
     }
 }
