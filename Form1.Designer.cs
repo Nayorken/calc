@@ -47,6 +47,7 @@
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.resultado = new System.Windows.Forms.TextBox();
+            this.equacao = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -157,6 +158,7 @@
             this.button11.TabIndex = 10;
             this.button11.Text = "+";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.operador_click);
             // 
             // button12
             // 
@@ -176,6 +178,7 @@
             this.button13.TabIndex = 12;
             this.button13.Text = "-";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.operador_click);
             // 
             // button14
             // 
@@ -185,6 +188,7 @@
             this.button14.TabIndex = 13;
             this.button14.Text = "*";
             this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.operador_click);
             // 
             // button15
             // 
@@ -194,6 +198,7 @@
             this.button15.TabIndex = 14;
             this.button15.Text = "/";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.operador_click);
             // 
             // button16
             // 
@@ -203,6 +208,7 @@
             this.button16.TabIndex = 15;
             this.button16.Text = "=";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -212,6 +218,7 @@
             this.button17.TabIndex = 16;
             this.button17.Text = "C";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button18
             // 
@@ -221,6 +228,7 @@
             this.button18.TabIndex = 17;
             this.button18.Text = "CE";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // resultado
             // 
@@ -232,11 +240,23 @@
             this.resultado.Text = "0";
             this.resultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
+            // equacao
+            // 
+            this.equacao.AutoSize = true;
+            this.equacao.BackColor = System.Drawing.SystemColors.Window;
+            this.equacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.equacao.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.equacao.Location = new System.Drawing.Point(264, 60);
+            this.equacao.Name = "equacao";
+            this.equacao.Size = new System.Drawing.Size(0, 22);
+            this.equacao.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.equacao);
             this.Controls.Add(this.resultado);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button17);
@@ -284,6 +304,7 @@
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.TextBox resultado;
+        private System.Windows.Forms.Label equacao;
     }
 }
 
