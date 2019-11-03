@@ -50,6 +50,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button20 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -332,11 +333,23 @@
             this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
+            // button20
+            // 
+            this.button20.FlatAppearance.BorderSize = 0;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Image = global::calc.Properties.Resources.on;
+            this.button20.Location = new System.Drawing.Point(205, 232);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(45, 32);
+            this.button20.TabIndex = 22;
+            this.button20.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(454, 497);
+            this.Controls.Add(this.button20);
             this.Controls.Add(this.button19);
             this.Controls.Add(this.equacao);
             this.Controls.Add(this.resultado);
@@ -392,6 +405,7 @@
         private System.Windows.Forms.Label equacao;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button20;
     }
 }
 
